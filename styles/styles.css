@@ -1,0 +1,26 @@
+h1, h2 {
+    display: flex;
+    justify-content: center;
+}
+.main-wrap{
+    padding: 2rem;
+    margin: auto;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+    box-sizing: border-box; 
+}
+
+.mole{
+	background-image: url("mole.jpg");
+	background-size: cover;
+}
